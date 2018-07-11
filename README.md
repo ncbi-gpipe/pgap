@@ -34,7 +34,7 @@ prerequisites below.
 ```shell
 (cwl) ~$ pip install -U wheel setuptools
 (cwl) ~$ pip install -U cwltool[deps] PyYAML cwlref-runner
-(cwl) ~$ wget -qO- https://github.com/ncbi-gpipe/pgap/archive/2018-07-05.build2884.tar.gz | tar xvf
+(cwl) ~$ wget -qO- https://github.com/ncbi-gpipe/pgap/archive/2018-07-05.build2884.tar.gz | tar zxvf
 (cwl) ~$ cd pgap-2018-07-05.build2884
 (cwl) ~/pgap-2018-07-05.build2884$ ./fetch_supplemental_data.sh
 (cwl) ~/pgap-2018-07-05.build2884$ cat input.yaml MG37/input.yaml > mg37_input.yaml
@@ -92,6 +92,7 @@ Prerequisites include:
 - PyYAML
 - cwlref-runner
 - cwltool
+- nodejs
 
 You will need to install the prerequisites if they're not already installed on
 your system.
