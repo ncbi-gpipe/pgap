@@ -1,7 +1,0 @@
-# User input
-asn_cache:
-  class: Directory
-  location: input/sequence_cache
-seqids:
-  class: File
-  location: input/sequences.seq_id

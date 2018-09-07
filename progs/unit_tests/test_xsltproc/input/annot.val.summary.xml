@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<ValidationErrors>
-  <Counts Severity="Error">
-    <Total>1</Total>
-    <Subcount Code="SEQ_DESCR_BioSourceNeedsChromosome">1</Subcount>
-  </Counts>
-</ValidationErrors>
